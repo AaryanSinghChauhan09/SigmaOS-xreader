@@ -1,15 +1,9 @@
-# SigmaOS-xreader
+# SigmaOS Xreader
 
-Part of the SigmaOS multi-repository architecture.
-
-## Principles
-- MODULARITY: Single responsibility per repository
-- LOOSE COUPLING: Minimal dependencies between repos
-- INTERFACE SEGREGATION: Clear, focused public APIs
-- DETERMINISTIC TESTING: Comprehensive test coverage
+This checkout currently contains only this README and a license file. It has no
+source tree, package manifest, executable, or documented document-viewing
+behavior; Xreader support is not implemented here.
 
 ## License
-SPDX-License-Identifier: GPL-3.0-or-later
 
-## Copyright
-Copyright (C) 2026 SigmaOS Project
+GPL-3.0-or-later. See [`LICENSE`](LICENSE).
