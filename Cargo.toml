@@ -1,0 +1,9 @@
+[package]
+name = "xreader"
+version = "0.1.0"
+edition = "2021"
+description = "SigmaOS SigmaOS-xreader component"
+license = "MIT"
+repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-xreader"
+
+[dependencies]
