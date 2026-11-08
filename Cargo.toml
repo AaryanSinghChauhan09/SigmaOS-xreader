@@ -2,7 +2,8 @@
 name = "sigmaos_xreader"
 version = "0.1.0"
 edition = "2021"
-description = "Document viewer supporting PDF, PostScript, DJVU, TIFF, and comic book archives"
+license = "MIT"
+description = "SigmaOS xreader component inspired by Linux Mint / Omarchy / Arch Linux."
 
 [lib]
 name = "sigmaos_xreader"
