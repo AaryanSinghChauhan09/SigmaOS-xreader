@@ -3,12 +3,12 @@ name = "SigmaOS-xreader"
 tier = 3
 stability = "scaffold"
 language = "rust"
-description = "Document viewer supporting PDF, PostScript, DJVU, TIFF, and comic book archives"
+description = "Document / eBook & comic reader"
 upstream = ["https://github.com/linuxmint/xreader"]
 
 [contract]
 provides = ["document-reader", "pdf-viewer", "page-navigation-engine"]
-depends_on = []
+depends_on = ["SigmaOS-system"]
 
 [maturity]
 status = "Scaffold"
