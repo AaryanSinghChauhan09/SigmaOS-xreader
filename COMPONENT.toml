@@ -1,7 +1,7 @@
 [component]
 name = "SigmaOS-xreader"
 tier = 3
-stability = "scaffold"
+stability = "beta"
 language = "rust"
 description = "Document / eBook & comic reader"
 upstream = ["https://github.com/linuxmint/xreader"]
@@ -11,6 +11,6 @@ provides = ["document-reader", "pdf-viewer", "page-navigation-engine"]
 depends_on = ["SigmaOS-system"]
 
 [maturity]
-status = "Scaffold"
+status = "Implemented"
 test_evidence = "Compiles and passes AAA unit tests"
 next_milestone = "Hardware and runtime integration"
