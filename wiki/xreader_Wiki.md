@@ -1,18 +1,18 @@
-# SigmaOS-SigmaOS-xreader Component Wiki
+# SigmaOS-xreader Component Wiki
 
 ## Overview
-SigmaOS-SigmaOS-xreader provides Document / eBook & comic reader for the SigmaOS operating system. It demonstrates the subsystem and integration within the SigmaOS ecosystem, following the principles of clear abstraction and deterministic initialization.
+SigmaOS-xreader provides component for the SigmaOS operating system. It demonstrates the subsystem and integration within the SigmaOS ecosystem, following the principles of clear abstraction and deterministic initialization.
 
 ## Principles
-- Single Responsibility
-- SigmaOS-xreader Abstraction
-- Fail-Fast on SigmaOS-xreader Initialization Errors
-- Deterministic SigmaOS-xreader Setup
-- Clear Abstraction Over SigmaOS-xreader APIs
-- Composition over Inheritance for SigmaOS-xreader extensions
+- **Single Responsibility**: Each component has a single well-defined purpose
+- **SigmaOS-xreader Abstraction**: Clear abstraction over the component's APIs and functionality
+- **Fail-Fast on SigmaOS-xreader Initialization Errors**: Fail-fast principle for initialization errors
+- **Deterministic SigmaOS-xreader Setup**: Deterministic initialization and configuration
+- **Clear Abstraction Over SigmaOS-xreader APIs**: Well-defined, clear APIs
+- **Composition over Inheritance for SigmaOS-xreader extensions**: Use composition patterns for extensions
 
 ## Architecture
-SigmaOS-SigmaOS-xreader follows a SigmaOS-xreader pattern:
+SigmaOS-xreader follows a SigmaOS-xreader pattern:
 - **SigmaOS-xreader Core**: Provides SigmaOS-xreader support, SigmaOS-xreader management, and SigmaOS-xreader tracking
 - **Management**: Supports SigmaOS-xreader management, SigmaOS-xreader configuration, and SigmaOS-xreader lifecycle
 - **Tracking**: Supports SigmaOS-xreader status, SigmaOS-xreader tracking, and SigmaOS-xreader lifecycle
@@ -20,10 +20,10 @@ SigmaOS-SigmaOS-xreader follows a SigmaOS-xreader pattern:
 
 ## API
 The component provides the following public APIs:
--  - Manage a SigmaOS-xreader by given configuration
--  - Register a SigmaOS-xreader by given name
--  - Get SigmaOS-xreader status and SigmaOS-xreader availability
--  - Track SigmaOS-xreader management and SigmaOS-xreader tracking
+- Manage a SigmaOS-xreader by given configuration
+- Register a SigmaOS-xreader by given name
+- Get SigmaOS-xreader status and SigmaOS-xreader availability
+- Track SigmaOS-xreader management and SigmaOS-xreader tracking
 - Error types for SigmaOS-xreader failure scenarios or unsupported SigmaOS-xreader types
 
 ## Test Structure (Arrange-Act-ASSERT)
@@ -32,11 +32,8 @@ All tests follow the AAA pattern:
 2. **Act**: Execute the code under test (SigmaOS-xreader init, SigmaOS-xreader management)
 3. **Assert**: Verify the expected SigmaOS-xreader results
 
-Example:
-
-
 ## Development
-- Follows Rust best practices with 
+- Follows best practices with clear abstraction boundaries
 - SigmaOS-xreader initialization is best-effort; gracefully degrades on unsupported configurations
 - Comprehensive error types for all SigmaOS-xreader failure scenarios
 - Unit tests provided for SigmaOS-xreader management and configuration
